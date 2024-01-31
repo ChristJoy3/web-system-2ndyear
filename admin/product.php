@@ -51,7 +51,7 @@
                                 <a class="nav-link active" href="product.php">Products</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link " href="user.php ">Users</a>
+                                <a class="nav-link <?php echo($role == 0 ? 'd-block': 'd-none')?> " href="user.php ">Users</a>
                             </li>
                         </ul>
                     </div>
@@ -63,7 +63,7 @@
                                 Hi <?php echo $_SESSION['firstname'] ?>
                             </a>
                             <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="logout.php">Logout</a>
+                                <a class="dropdown-item" href="Logout.php">Logout</a>
                             </div>
                         </li>
                     </div>

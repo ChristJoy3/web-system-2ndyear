@@ -60,7 +60,7 @@
                                 Hi <?php echo $_SESSION['firstname'] ?>
                             </a>
                             <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="logout.php">Logout</a>
+                                <a class="dropdown-item" href="Logout.php">Logout</a>
                             </div>
                         </li>
                     </div>
