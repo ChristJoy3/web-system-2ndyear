@@ -1,9 +1,9 @@
 <?php
 
     $servername = "localhost";
-    $username   = "root";
-    $password   = ""; 
-    $dbname     = "database";
+    $username   = "dfoiwidm_lazzhoppe";
+    $password   = "Kissmun@cj31"; 
+    $dbname     = "dfoiwidm_lazzhoppe";
 
 
     //Create a connection to db
